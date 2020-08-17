@@ -1,0 +1,15 @@
+This quiz is used to evaluate your python skill level.
+
+1)	Please declare a variable “x” with value 25
+2)	Please declare a variable “name” with your name
+3)	Please print out “My name is <Your Name>” using “name” variable declared above
+4)	Please declare a dictionary with 2 keys, name -> your name, gender->male|female
+5)	Please declare a list with 5 odd numbers
+6)	Please define a function “sum” with multiple arguments, it can accept 2 or more arguments. Then call this function with 2,5,7,3,6,9 and print out the value
+7)	Please define a function “greeting” with name and gender,
+    a.	If gender is female, then print out “My name is <name>, I’m a girl”
+    b.	If gender is male, then print out “My name is <name>, I’m a boy”
+8)	l = [“red”, “green”, “blue”, “yellow”], define a function “exists” to check if color exists in list, and print out True or False.
+For example, exists(“red”, l) should return True, exists(“dark”, l) should return False.
+def exists(color, l):
+	//Your code is here
