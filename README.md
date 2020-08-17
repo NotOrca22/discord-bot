@@ -21,7 +21,7 @@ This course will teach you to create discord bot using Python and MySQL server.
 3)  Go to https://github.com/NotOrca22/discord-bot, and click on fork button on right side, it will 
     fork a new branch to your github account.
 4)  Go to your machine and open a terminal and try to run below command:
-    git clone git@github.com:<Your github account name>/discord-bot.git
+    git clone git@github.com:[Your github account name]/discord-bot.git
 5)  Then you go to your Python IDE, open discord-bot folder.
 6)  You can run git status to see what files are changed, or use IDE to do it.
 7)  You also can run git diff to know what changes in each changed files, or do it in IDE
