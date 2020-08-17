@@ -1,9 +1,9 @@
-#Python Bot Making
+# Python Bot Making
 This repository is for Python Bot Making course created by Christopher Wang.
 
 This course will teach you to create discord bot using Python and MySQL server.
 
-##Prerequisite:
+## Prerequisite:
 1)  You need have a computer, windows, mac, etc.
 2)  You should have basic concepts of programming, it's better if you programmed before
 3)  Basic Python programming skills are preferred
@@ -14,7 +14,7 @@ This course will teach you to create discord bot using Python and MySQL server.
 6)  You should have a github account, whihc will be used to submit your homework, and send out class handout.
 7)  Install a your preferred Python IDE, if you don't know one, you can use Pycharm.
 
-##Github Basics
+## Github Basics
 1)  You need to install git on your machine, if you don't know how to install git, please got google.com to search 
     "How to install git on <your platform name>", then follow the instructions.
 2)  Go to github.com to create an account
