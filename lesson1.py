@@ -2,7 +2,7 @@ import discord
 import os
 from dotenv import load_dotenv
 load_dotenv()
-TOKEN = 'NzQzMTQ3NTcwMjM4NTg2OTUw.XzQcGw.H6irisFG1VzettI4iOsiYG72Eh0'
+TOKEN = "YOUR TOKEN HERE"
 GUILD = os.getenv('Python Bot Making Class')
 client = discord.Client()
 
