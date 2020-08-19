@@ -12,3 +12,10 @@ async def on_ready():
         for member in guild.members:
             print(member.name)
 client.run(TOKEN)
+
+@client.event
+async def on_message(message):
+    if message.author == client.user or message.author.bot:
+        return
+    else:
+        await message.channel.send(f"{message.content}")
