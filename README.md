@@ -1,4 +1,4 @@
-s# Python Bot Making
+# Python Bot Making
 This repository is for Python Bot Making course created by Christopher Wang.
 
 This course will teach you to create discord bot using Python and MySQL server.
