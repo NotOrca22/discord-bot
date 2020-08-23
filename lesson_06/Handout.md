@@ -1,6 +1,6 @@
 ## How to install MySQL server community edition
 1. Download mysql community server
-    * [windows](https://dev.mysql.com/downloads/file/?id=496745)
+    * [windows](https://dev.mysql.com/downloads/file/?id=497105)
     * [Mac](https://dev.mysql.com/downloads/file/?id=497036)
 
 1.  Double click on just downloaded executable and follow installation wizard
