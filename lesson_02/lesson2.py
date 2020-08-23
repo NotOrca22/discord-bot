@@ -3,9 +3,9 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-# TOKEN = os.getenv("TOKEN")
-TOKEN="YOUR TOKEN HERE"
+TOKEN=os.getenv("TOKEN")
 client = discord.Client
+
 
 @client.event
 async def on_ready():
@@ -16,6 +16,7 @@ async def on_ready():
         )
         for member in guild.members:
             print(member)
+
 
 @client.event
 async def on_message(message):
