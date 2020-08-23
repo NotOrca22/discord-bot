@@ -20,14 +20,16 @@ async def on_ready():
 
 @client.command()
 @has_permissions(kick_members=True)
-async def kick(ctx, member:discord.Member, *, reason=None):
+async def kick(ctx, member: discord.Member, *, reason=None):
     await member.kick(reason=reason)
-    await ctx.channel.send("%s has been kicked by %s. Reason: %s." % (member, ctx.message.author, reason))
+    await ctx.channel.send(f"{member} has been kicked by {ctx.message.author}. Reason: {reason}.")
 
 
 @client.command()
 @has_permissions(ban_members=True)
-async def ban(ctx, member:discord.Member, *, reason=None):
+async def ban(ctx, member: discord.Member, *, reason=None):
     await member.ban(reason=reason)
-    await ctx.channel.send("%s has been banned by %s. Reason: %s." % (member, ctx.message.author, reason))
+    await ctx.channel.send(f"{member} has been banned by {ctx.message.author}. Reason: {reason}.")
+
+
 client.run(TOKEN)
