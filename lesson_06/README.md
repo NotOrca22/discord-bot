@@ -5,7 +5,9 @@
 
 1.  Double click on just downloaded executable and follow installation wizard
 
-Tips: in the installation processs, wizard will ask you set up password for root user, please password in safe play, it will be used later.
+* Tips: in the installation processs, 
+    * wizard will ask you to select authentication method, you need select *Use Legacy Password Encryption*
+    * wizard will ask you set up password for root user, please password in safe play, it will be used later.
 
 ## How to install MySQLWorkbench
 
