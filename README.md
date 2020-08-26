@@ -35,8 +35,13 @@ This course will teach you to create discord bot using Python and MySQL server.
 
 ## How to set up .env file
 Your .env file under your project should be similar to below:
+
 TOKEN=YOUR TOKEN
+
 HOST=localhost
+
 USERNAME=discord_dev
+
 PASSWORD=YOUR PASSWORD
+
 DATABASE=discord
