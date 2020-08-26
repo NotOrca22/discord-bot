@@ -32,3 +32,11 @@ This course will teach you to create discord bot using Python and MySQL server.
 10) Then go to your discord-bot repo on github.com, then click on Pull requests button to create a Pull Request,
     After reviewed your code, it will be merged into major repo.
 11) You can run git pull upstream master to sync your repo with major repo.
+
+## How to set up .env file
+Your .env file under your project should be similar to below:
+TOKEN=YOUR TOKEN
+HOST=localhost
+USERNAME=discord_dev
+PASSWORD=YOUR PASSWORD
+DATABASE=discord
