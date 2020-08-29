@@ -22,6 +22,8 @@ connection = mysql.connector.connect(
     password=PASSWORD,
     database=DATABASE
 )
+
+
 @client.event
 async def on_ready():
     for guild in client.guilds:
