@@ -11,6 +11,7 @@ from sqlalchemy import Column, DateTime, String, Integer, ForeignKey, func
 from sqlalchemy.orm import relationship, backref
 from sqlalchemy.ext.declarative import declarative_base
 
+# please install sqlalchemy package by pip/pip3 install sqlalchemy
 Base = declarative_base()
 load_dotenv()
 
